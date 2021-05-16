@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edf4ed69-bb82-4b0b-b546-52e2c87d44bc" name="Default" comment="Moved main method to a Driver class (to simulate running the simulator&#10;outside of the package). Added log file to keep track of inconsistencies&#10;between the raw file and outputted json file">
+      <change beforePath="$PROJECT_DIR$/src/HL7Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HL7Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1961969851">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2007" />
+          <entry key="txt" value="226" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2007" />
+          <entry key="PLAIN_TEXT" value="226" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-171744595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1152" />
+          <entry key="txt" value="216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1152" />
+          <entry key="PLAIN_TEXT" value="216" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-172225033">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="17" />
+          <entry key="project.opened" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="31009" />
+          <entry key="txt" value="2904" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="31009" />
+          <entry key="PLAIN_TEXT" value="2904" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HL7Json.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="325" column="27" selection-start-line="325" selection-start-column="27" selection-end-line="325" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#15397#15398#0" expanded="true" />
+                <element signature="e#15429#15430#0" expanded="true" />
+                <element signature="e#17403#17404#0" expanded="true" />
+                <element signature="e#17432#17433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>segment</find>
+      <find>segHead</find>
+      <find>getSeg</find>
+      <find>obr</find>
+      <find>])</find>
+      <find>,</find>
+      <find>getRepeat</find>
+      <find>getSegment</find>
+      <find>&quot;\\|&quot;</find>
+      <find>.split(FIELD_SEPARATOR)[0]</find>
+      <find>.split(FIELD_SEPARATOR)[</find>
+      <find>segmentize(</find>
+      <find>singleSegmentize</find>
+      <find>segmentizeSEG</find>
+      <find>hl7Cont</find>
+      <find>msh</find>
+      <find>print</find>
+      <find>getSegHead</find>
+      <find>base1</find>
+      <find>exception</find>
+      <find>upda</find>
+      <find>log</find>
+      <find>validity</find>
+      <find>log =</find>
+      <find>update</find>
+      <find>head</find>
+      <find>nk1</find>
+      <find>1test_a6993</find>
+      <find>segmentizeSegm</find>
+      <find>split</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fields</replace>
+      <replace>body</replace>
+      <replace>})</replace>
+      <replace>Map.entry(&quot;</replace>
+      <replace>segmentizeSEG(</replace>
+      <replace>segmentize</replace>
+      <replace>segmentizeSegment</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dwinata3 &lt;dwinata3@gatech.edu&gt;" />
+        <option value="Winata, Destin Luke &lt;dwinata3@gatech.edu&gt;" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$USER_HOME$" source="remote/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/HL7JSON.java" />
+        <option value="$PROJECT_DIR$/src/MessageHeaderSegment.java" />
+        <option value="$PROJECT_DIR$/src/Fields.java" />
+        <option value="$PROJECT_DIR$/src/Segment.java" />
+        <option value="$PROJECT_DIR$/src/UnconvertedSegmentException.java" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/HL7Json.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HL7Json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HL7Json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HL7Json" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HL7Json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555353747018" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="HL7JSON" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HL7JSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HL7JSON" />
+      <module name="HL7JSON" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HL7Json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HL7Json" />
+      <module name="HL7JSON" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HL7JSON" />
+      <item itemvalue="Application.HL7Json" />
+      <item itemvalue="Application.Driver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.HL7Json" />
+        <item itemvalue="Application.HL7JSON" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edf4ed69-bb82-4b0b-b546-52e2c87d44bc" name="Default" comment="" />
+      <created>1541431942853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541431942853</updated>
+    </task>
+    <task id="LOCAL-00001" summary="The script now successfully splits messages into segments, and splits&#10;those segments into fields.">
+      <created>1541804770357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541804770357</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added JSON output functionality">
+      <created>1542667506951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542667506951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding support for segment repeats (not quite done yet, but the script does properly detect when a repeat needs to be accounted for)">
+      <created>1547060259065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547060259065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding the test cases onto github just in case they get lost">
+      <created>1547069799829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547069799829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding the test cases onto github just in case they get lost">
+      <created>1547070118821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547070118821</updated>
+    </task>
+    <task id="LOCAL-00006" summary="organizing">
+      <created>1547070239355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547070239355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Re-organized program; moved read/write functions to seperate methods&#10;(so I could move the actual computation out of a try/catch block). Script&#10;now properly copies segment repeats in a message. Now onto splitting fields&#10;into components.">
+      <created>1547585440452</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547585440452</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cleaned up main method (specifically, the &quot;source directory&quot; definitions">
+      <created>1547586355299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547586355299</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cleaned up main method (specifically, the &quot;source directory&quot; definitions (part 2.)">
+      <created>1547586528285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547586528285</updated>
+    </task>
+    <task id="LOCAL-00010" summary="More module reorganizing">
+      <created>1547676727523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547676727523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Even more module reorganizing. Added empty string pairings to JSON objects &#10;(to make the formatting look cleaner)">
+      <created>1548278801604</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548278801604</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some exception checking (also committing with the right account now)">
+      <created>1548371084287</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548371084287</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed a bug with PID segment; reorganized structure">
+      <created>1548704868708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1548704868708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created new segment class to handle Field/Component Separation">
+      <created>1548955468722</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1548955468722</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Created new segment class to handle Field/Component Separation">
+      <created>1548971612116</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548971612116</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Reorganized multiple segment handler to be able to account for OBR-OBX repeats">
+      <created>1549410457197</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1549410457198</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Removing extraneous code">
+      <created>1549574927864</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1549574927864</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Removing extraneous code">
+      <created>1549575051047</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1549575051047</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Got OBR/OBX segmentation to work :D">
+      <created>1549664688326</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1549664688326</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Removed remove() functions">
+      <created>1550076509227</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1550076509227</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Sub-component handling :)">
+      <created>1550509996452</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1550509996452</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sub-component prefixes (got rid of all the &quot;lol&quot;s)">
+      <created>1551460494810</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551460494810</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed naming prefix conventions from datatypes to indexes">
+      <created>1551720583213</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551720583213</updated>
+    </task>
+    <task id="LOCAL-00024" summary="field repeats :D">
+      <created>1551723423001</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551723423001</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added support for NTE segment (the comment segment)">
+      <created>1551993524700</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551993524700</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed some syntax errors w/ Segment.java and implemented the final Segment (SPM)&#10;in Hl7Json.java. All main functionalities are now implmented :D (not sure if they'll work 100% of the time though)">
+      <created>1552064659740</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552064659740</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Made the javadoc comments not shit. Also, implemented the sneaky ORC&#10;segment (so now the script is truly 100% done). Probably not though,&#10;that's 1 of 102918302913 bugs I'll run into, it's a work in progress&#10;after all.">
+      <created>1552430682697</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552430682697</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed a small bug in the order observation segment where the script would&#10;not find a single occurrence of the target segment (it only worked when&#10;there was more than one occurrence). Also added another main method that&#10;loops through all HL7 files in a given directory">
+      <created>1554322473396</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1554322473396</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Simplified the JSON output hierarchy and added relevant converter&#10;metadata to the base level of the hierarchy. The script now outputs all&#10;JSON files to a new sub-directory called &quot;/output/&quot; (very creative)">
+      <created>1554417824905</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1554417824905</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fixed a hilariously simple but important quirk with the script; MongoDB&#10;doesn't support keys with the period ('.') character, so subcomponents&#10;are now separated with the underscore ('_') character.">
+      <created>1554479274786</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554479274786</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Moved main method to a Driver class (to simulate running the simulator&#10;outside of the package). Added log file to keep track of inconsistencies&#10;between the raw file and outputted json file">
+      <created>1555350300999</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555350300999</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3101777" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.30047694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016155" side_tool="true" weight="0.30047694" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32750398" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919224" weight="0.3290938" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="organizing" />
+    <MESSAGE value="Re-organized program; moved read/write functions to seperate methods&#10;(so I could move the actual computation out of a try/catch block). Script&#10;now properly copies segment repeats in a message. Now onto splitting fields&#10;into components." />
+    <MESSAGE value="Cleaned up main method (specifically, the &quot;source directory&quot; definitions" />
+    <MESSAGE value="Cleaned up main method (specifically, the &quot;source directory&quot; definitions (part 2.)" />
+    <MESSAGE value="More module reorganizing" />
+    <MESSAGE value="Even more module reorganizing. Added empty string pairings to JSON objects &#10;(to make the formatting look cleaner)" />
+    <MESSAGE value="some exception checking (also committing with the right account now)" />
+    <MESSAGE value="Fixed a bug with PID segment; reorganized structure" />
+    <MESSAGE value="Created new segment class to handle Field/Component Separation" />
+    <MESSAGE value="Reorganized multiple segment handler to be able to account for OBR-OBX repeats" />
+    <MESSAGE value="Commenting out Segment component variables" />
+    <MESSAGE value="Removing extraneous code" />
+    <MESSAGE value="Got OBR/OBX segmentation to work :D" />
+    <MESSAGE value="Removed remove() functions" />
+    <MESSAGE value="Sub-component handling :)" />
+    <MESSAGE value="sub-component prefixes (got rid of all the &quot;lol&quot;s)" />
+    <MESSAGE value="Changed naming prefix conventions from datatypes to indexes" />
+    <MESSAGE value="field repeats :D" />
+    <MESSAGE value="Added support for NTE segment (the comment segment)" />
+    <MESSAGE value="Fixed some syntax errors w/ Segment.java and implemented the final Segment (SPM)&#10;in Hl7Json.java. All main functionalities are now implmented :D (not sure if they'll work 100% of the time though)" />
+    <MESSAGE value="Made the javadoc comments not shit. Also, implemented the sneaky ORC&#10;segment (so now the script is truly 100% done). Probably not though,&#10;that's 1 of 102918302913 bugs I'll run into, it's a work in progress&#10;after all." />
+    <MESSAGE value="Fixed a small bug in the order observation segment where the script would&#10;not find a single occurrence of the target segment (it only worked when&#10;there was more than one occurrence). Also added another main method that&#10;loops through all HL7 files in a given directory" />
+    <MESSAGE value="Simplified the JSON output hierarchy and added relevant converter&#10;metadata to the base level of the hierarchy. The script now outputs all&#10;JSON files to a new sub-directory called &quot;/output/&quot; (very creative)" />
+    <MESSAGE value="Fixed a hilariously simple but important quirk with the script; MongoDB&#10;doesn't support keys with the period ('.') character, so subcomponents&#10;are now separated with the underscore ('_') character." />
+    <MESSAGE value="Moved main method to a Driver class (to simulate running the simulator&#10;outside of the package). Added log file to keep track of inconsistencies&#10;between the raw file and outputted json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved main method to a Driver class (to simulate running the simulator&#10;outside of the package). Added log file to keep track of inconsistencies&#10;between the raw file and outputted json file" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/out/testMSHJSONObject.json" />
+    <entry file="file://$PROJECT_DIR$/1Test2774.txt" />
+    <entry file="file://$PROJECT_DIR$/Hl7JSON.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fields.java" />
+    <entry file="file://$PROJECT_DIR$/src/MessageHeaderSegment.java" />
+    <entry file="file://$PROJECT_DIR$/src/Segment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnconvertedSegmentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HL7Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="325" column="27" selection-start-line="325" selection-start-column="27" selection-end-line="325" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#15397#15398#0" expanded="true" />
+            <element signature="e#15429#15430#0" expanded="true" />
+            <element signature="e#17403#17404#0" expanded="true" />
+            <element signature="e#17432#17433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HL7JSON</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
